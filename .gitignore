@@ -4,7 +4,7 @@ src/db
 build
 dist
 app.spec
-Listas.xlsx
+Lista.xlsx
 __pycache__
 *.pyc
 *.pyo
