@@ -89,7 +89,7 @@ este ejecutable de windows puede utilizarse directamente desde el escritorio de 
 - Se debe correr el Script una vez colocado el archivo y este va a analizar este archivo y va a crear una carpeta con el nombre de la fecha actual Ejemplo: "2026-05.02" y dentro de esta carpeta se va a crear un archivo llamado "Consolidado_(fecha actual).xlsx" siguiendo con el ejemplo "Consolidado_2026-05-02.xlsx".
 - Una vez el Script realice el descuento informa a traves de consola y a su vez el archivo.docx pasa a la carpeta "Descontados".
 - Si abrimos el archivo de excel "Consolidado_2026-05-02.xlsx" estara el descuento correspondiente de los productos señalados en el .docx indicando cantidad y productos.
-- Cabe destacar que el descuento al hacerse una vez no se podra hacer de nuevo ya que se generaria un conflicto de fechas, en caso de tener que hacer otro descuento se debera renombrar la carpeta generada con la fecha
+- Cabe destacar que el descuento al hacerse una vez por fecha, no se podra hacer de nuevo ya que se generaria un conflicto de fechas, en caso de tener que hacer otro descuento se debera renombrar la carpeta generada con la fecha para poder asi hacer otro descuento del mismo día.
 
 
 ## Documentación
