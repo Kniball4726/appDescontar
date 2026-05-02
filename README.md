@@ -81,6 +81,21 @@ al correr este comando se crearan dos carpetas denominadas `build` y `dist`
 dentro de la carpeta `dist` encontraremos un archivo llamado `app.exe`
 
 este ejecutable de windows puede utilizarse directamente desde el escritorio de su pc otorgandole un acceso directo, se puede modificar el nombre y el icono
+
+## Forma de uso
+
+- Al ejecutar el Script por primera vez se van a crear dos carpetas junto al ejecutable las cuales tendran por nombre "Descontar" y "Descontados".
+- Al crear estas carpetas se debe colocar el archivo a descontar con formato .docx dentro de la carpeta "Descontar" y se debe correr el script nuevamente.
+- Se debe correr el Script una vez colocado el archivo y este va a analizar este archivo y va a crear una carpeta con el nombre de la fecha actual Ejemplo: "2026-05.02" y dentro de esta carpeta se va a crear un archivo llamado "Consolidado_(fecha actual).xlsx" siguiendo con el ejemplo "Consolidado_2026-05-02.xlsx".
+- Una vez el Script realice el descuento informa a traves de consola y a su vez el archivo.docx pasa a la carpeta "Descontados".
+- Si abrimos el archivo de excel "Consolidado_2026-05-02.xlsx" estara el descuento correspondiente de los productos señalados en el .docx indicando cantidad y productos.
+- Cabe destacar que el descuento al hacerse una vez no se podra hacer de nuevo ya que se generaria un conflicto de fechas, en caso de tener que hacer otro descuento se debera renombrar la carpeta generada con la fecha
+
+
+## Documentación
+
+En la carpeta raiz se encuentra un archivo llamado `documentacion.py` al ejecutar este archivo por terminal se observa la documentación completa de todas las funciones utilizadas en la aplicación
+
 ## Autor
 
 Gregory Rodriguez - Trabajo inicial, Desarrollo y documentación
